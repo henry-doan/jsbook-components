@@ -26,6 +26,19 @@ button {
 	line-height: 1em;
 	text-decoration: none;
 }
+/* No js */
+.js-warning {
+	display: none;
+}
+
+.no-js .js-warning {
+	display: block;
+	border: 3px solid #fff;
+	text-align: center;
+	background-color: #fff;
+	color: #666;
+	padding: 10px;
+}
 /* Typography */
 /* TODO import fonts */
 h1 {
