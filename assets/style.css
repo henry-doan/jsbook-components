@@ -19,11 +19,27 @@ body {
 
 button {
 	border: none;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	font-size: 230%;
+	line-height: 1em;
+	text-decoration: none;
 }
 /* Typography */
 /* TODO import fonts */
 h1 {
 	text-align: center;
+}
+
+h2 {
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	font-size: 230%;
+	line-height: 1em;
+	padding: 20px 0 0 20px;
 }
 
 p {
@@ -217,6 +233,25 @@ button.modal-close:hover {
 	margin: 10px 5px 0 0;
 	height: 60px;
 } 
+
 a.active {
 	opacity: 0.3;
+}
+
+.gallery {
+	width: 400px;
+	padding: 20px;
+	float: left;
+}
+
+.description {
+	width: 180px;
+	float: right;
+	padding: 20px 20px 0 0;
+	font-size: 85%;
+	line-height: 1em;
+}
+
+.standfirst {
+	margin: 0;
 }
